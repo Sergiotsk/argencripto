@@ -15,6 +15,26 @@
     transform: scale(2);
     transition: all 2s;
 }
+/* //////////////////////// */
+.animaciones2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(221, 101, 2);
+}
+.animaciones2:active{
+
+transform: translate(500px) scale(3) rotate(90deg);
+transition: .5s all;
+
+
+}
+
+
+
+
+
+
+/* /////////////////////////////////// */
 /* circulos */
 .circle1 , .circle2,.circle3, .circle4, .circle5{
     width: 30px;
