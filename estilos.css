@@ -90,10 +90,7 @@
     transform: rotate(90deg) scale(2) translateX(140px);
 
 }
-.animaciones{
 
-
-}
 .animaciones:hover{
     animation: cambiodecolor 4s;
 }
