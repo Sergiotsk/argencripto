@@ -29,14 +29,31 @@ transition: .5s all;
 
 } */
 /* ///////////////otro cambios para mergear///////////// */
-.animaciones2:active{
+/* .animaciones2:active{
 transform: translate(200px) rotate(180deg) scale(2);
 background-color: aquamarine;
-transition: .8s all;
+transition: .8s all; 
+}*/
+.n1{
+    transform: translateX(200px);
+    transition: 3s ease-in-out;
+
 }
+.n2{
+    transform: translateX(400px);
+    transition: 3s ease-in;
 
+}
+.n3{
+    transform: translateX(600px);
+    transition: 3s ease-out;
 
+}
+.n4{
+    transform: translateX(800px);
+    transition: 3s step-end;
 
+}
 
 /* /////////////////////////////////// */
 /* circulos */
