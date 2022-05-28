@@ -21,15 +21,19 @@
     height: 200px;
     background-color: rgb(221, 101, 2);
 }
-.animaciones2:active{
+/* .animaciones2:active{
 
 transform: translate(500px) scale(3) rotate(90deg);
 transition: .5s all;
 
 
+} */
+/* ///////////////otro cambios para mergear///////////// */
+.animaciones2:active{
+transform: translate(200px) rotate(180deg) scale(2);
+background-color: aquamarine;
+transition: .8s all;
 }
-
-
 
 
 
